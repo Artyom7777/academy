@@ -24,7 +24,7 @@ public class Meat extends Product {
 
 	@Override
 	public double discount() {
-		if (producerName.contains("Bel")){
+		if (quantity > 3){
 			return MEAT_DISCOUNT;
 		
 	}
