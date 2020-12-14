@@ -5,9 +5,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Task5<D, S> {
-//	Можно писать все в main. Не нужно создавать новых классов.
-//	Имеется текст. Следует составить для него частотный словарь:
-//	Создать Map<Character, Integer> для символов, в который мы заносим символ и его количество.
 
 	public static void main(String... args) {
 

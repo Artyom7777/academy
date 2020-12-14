@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Task4 {
-//	Создать список оценок учеников с помощью ArryList, заполнить случайными
-//	оценками. Найти самую высокую оценку с использованием итератора.
 
 	public static void main(String... args) {
 

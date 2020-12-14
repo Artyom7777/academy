@@ -3,8 +3,6 @@ package by.academy.homework5;
 import java.util.Iterator;
 
 public class MyIteratorTwo<T> implements Iterator<T> {
-//	Написать итератор по двумерному массиву. (Отдельный класс. Наследуемся от Iterator<T>)
-//	Протестировать в main.
 
 	private T[][] arr;
 	private int i, j;
