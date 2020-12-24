@@ -1,8 +1,9 @@
 package by.acadmy.homework6;
 
 import java.io.File;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 
@@ -38,10 +39,15 @@ public class Main implements Serializable {
 			if (!file.exists()) {
 				file.createNewFile();
 			}
-			try (FileWriter fw = new FileWriter(file)) {
-					fw.write(userArr.get(i).getFirstName() + " " + userArr.get(i).getLastNamr() + " "
-							+ userArr.get(i).getAge());
-					
+			
+			try {
+			    FileOutputStream outputStream = new FileOutputStream(file);
+			    ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
+			    
+			    objectOutputStream.writeObject(userArr.get(i).getFirstName() + " " + userArr.get(i).getLastNamr() + " "
+						+ userArr.get(i).getAge());
+			
+			    objectOutputStream.close();
 			}catch (Exception e) {
 				System.err.println(e.getMessage());
 				
