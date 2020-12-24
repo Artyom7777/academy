@@ -25,7 +25,7 @@ public class Main implements Serializable {
 		userArr.add(new User("Lidia", "Shtein", 26));
 		userArr.add(new User("Kate", "Winter", 55));
 		userArr.add(new User("Elena", "Barkley", 23)); 
-		
+				
 		File dir = new File("C:\\Users\\User\\git\\academy\\by.academy\\src\\by\\acadmy\\homework6\\users");
 
 			if (!dir.exists()) {

@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Task4 {
 
 	public static void main(String... args) throws FileNotFoundException, IOException {
-
+		
 		File dir = new File("C:\\Users\\User\\git\\academy\\by.academy\\src\\by\\acadmy\\homework6\\Task4files");
 
 		if (!dir.exists()) {
@@ -61,7 +61,7 @@ public class Task4 {
         	
             for (File files : dir.listFiles()) {
                 System.out.println("Name: " + files.getName() + " size: " + files.length());
-                folder.write("Name: " + files.getName() + " size: " + files.length());
+                folder.write("Name: " + files.getName() + " size: " + files.length() + "\n");
             }
 		}
         br.close(); 		

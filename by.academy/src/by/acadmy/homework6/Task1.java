@@ -11,7 +11,7 @@ public class Task1 {
 
 	public static void main(String... args) throws FileNotFoundException, IOException {
 
-		File dir = new File("C:\\Users\\User\\git\\academy\\by.academy\\src\\by\\acadmy\\homework6");
+				File dir = new File("C:\\Users\\User\\git\\academy\\by.academy\\src\\by\\acadmy\\homework6");
 
 		if (!dir.exists()) {
 			dir.mkdir();

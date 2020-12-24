@@ -5,7 +5,7 @@ public class User {
 	private String firstName;
 	private String lastNamr;
 	private int age;
-	
+		
 	public User(String firstName, String lastNamr, int age) {
 		super();
 		this.firstName = firstName;

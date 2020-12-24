@@ -11,7 +11,7 @@ import java.io.IOException;
 public class Task2 {
 
 	public static void main(String... args) throws FileNotFoundException, IOException {
-
+		
 		File dir = new File("C:\\Users\\User\\git\\academy\\by.academy\\src\\by\\acadmy\\homework6");
 
 		if (!dir.exists()) {
